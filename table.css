@@ -1,0 +1,20 @@
+.tabel1{
+    font-family: monospace;
+    color: #444;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7;
+    margin-top: 150px;
+}
+.tabel1 tr th{
+    background: #55a9db;
+    color: #fff;
+    font-weight: normal;
+}
+.tabel1, th, td{
+    padding: 10px 30px;
+    text-align: center;
+}
+.tabel1 tr:nth-child(even){
+    background: #85edf4;
+}
